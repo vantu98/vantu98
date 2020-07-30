@@ -45,6 +45,7 @@
 </head>
 
 <body class="w-full h-screen bg-primary relative">
+    <!-- INTRO -->
     <section id="intro" class="w-full h-screen relative bg-white tu-bg-img"
         style="background-image: url('public/images/desktop.jpg')">
         <!-- intro -->
@@ -74,15 +75,77 @@
     </section>
 
     <!-- Personal Infomation -->
-    <section id="personal-infomation" class="w-full bg-gray-200 relative">
+    <section id="about-me" class="w-full bg-gray-200 relative">
         <!-- Head -->
         <div class="w-full py-6 mb-4 mx-auto text-center bg-gray-300 sticky top-0">
             <h2 class="uppercase text-2xl">About me</h2>
         </div>
 
         <!-- Body -->
-        <div class="w-full p-2">
-            
+        <div class="w-full">
+            <div class="w-full lg:w-4/5 xl:w-4/5 mx-auto px-6">
+                <div class="grid grid-cols-1 lg:grid-cols-7 xl:grid-cols-5 gap-4">
+                    <!-- avatar -->
+                    <div class="w-full rounded-lg">
+                        <img src="public/images/avatar.jpeg" alt="Nguyen Van Tu's avatar" class="rounded-lg">
+                    </div>
+
+                    <!-- summary -->
+                    <div class="w-full py-4 px-6 rounded-lg lg:col-span-3 xl:col-span-3 border bg-white">
+                        <!-- title -->
+                        <h3 class="text-gray-800 font-regular text-xl uppercase mb-4">Summary</h3>
+
+                        <!-- content -->
+                        <div class="w-full text-md text-gray-800">
+                            <p class="mb-2">I'm Pham Huy Hoang, a full stack developer with 3 years of experience in
+                                .NET technologies and 1 year of experience in MEAN stack, with good knowledge of
+                                Database Design, Design Pattern, Object-Oriented Analysis and Design.</p>
+                            <p class="mb-2">Learning new languages and technologies is what I am passionate about (I
+                                self-taught Django with 3 weeks). I am considered a team-player because I like to help
+                                other and tend to work well within groups. I can also do some mentoring tasks and do
+                                code reviewing for other team members.</p>
+                            <p class="mb-2">I am also the owner of an IT blog called: toidicodedao.com. My stackoverflow
+                                profile is among the top 11% with more than 3k reps. My favorite books are: Clean Code,
+                                Head First Design Pattern, C# in Depth, Working with Legacy Code.</p>
+                        </div>
+
+                        <!-- download CV btn -->
+                        <button id="btn-download-my-cv"
+                            class="p-2 flex justify-between align-middle rounded-lg bg-green-400 text-white mt-4">
+                            <!-- icon -->
+                            <ion-icon name="download" class="text-xl mr-2"></ion-icon>
+                            <span class="uppercase">My CV</span>
+                        </button>
+                    </div>
+
+                    <!-- personal infomation -->
+                    <div class="w-full">
+                        <!-- wrapper -->
+                        <div class="bg-white p-4 rounded-lg overflow-scroll">
+                            <!-- title -->
+                            <h3 class="text-gray-800 font-regular text-xl uppercase mb-4">Contact Info</h3>
+
+                            <!-- list info -->
+                            <div class="flex flex-row block justify-start items-center py-2">
+                                <ion-icon name="navigate" class="text-xl mr-2 text-green-500"></ion-icon>
+                                <p class="text-md">99 Nguyen Hau, Tan Phu</p>
+                            </div>
+                            <div class="flex flex-row block justify-start items-center py-2">
+                                <ion-icon name="call" class="text-xl mr-2 text-green-500"></ion-icon>
+                                <a href="tel:0971794425" class="text-md">(+84) 971 794 425</a>
+                            </div>
+                            <div class="flex flex-row block justify-start items-center py-2">
+                                <ion-icon name="mail" class="text-xl mr-2 text-green-500"></ion-icon>
+                                <a href="mailto:nguyenvantu191298@gmail.com" class="text-md text-blue-500 hover:text-teal-500">nguyenvantu191298@gmail.com</a>
+                            </div>
+                            <div class="flex flex-row block justify-start items-center py-2">
+                                <ion-icon name="globe" class="text-xl mr-2 text-green-500"></ion-icon>
+                                <a href="http://www.mucaocao.com" class="text-md text-blue-500 hover:text-teal-500">mucaocao.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
