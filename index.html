@@ -5,29 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- FOR SEO -->
-    <meta name="title" content="Nguyễn Văn Tú - From coder to developer | Nguyễn Văn Tú CV">
+    <meta name="title" content="Nguyễn Văn Tú - From coder to developer Resume | Nguyễn Văn Tú CV">
     <meta name="author" content="Nguyễn Văn Tú | PS11094 | tunv | Mũ Cào Cào">
-    <meta name="keywords" content="cv | tunv | Nguyễn Văn Tú | Nguyễn Văn Tú CV | Nguyen Van tu's CV">
+    <meta name="keywords" content="cv | tunv | Nguyễn Văn Tú | Nguyễn Văn Tú CV | Nguyen Van Tu's CV">
 
     <!-- END FOR SEO -->
     <!-- <title>Nguyễn Văn Tú - Full Stack Developer Resume</title> -->
     <!-- Primary Meta Tags -->
     <title>Nguyễn Văn Tú - From Coder to Developer Resume</title>
     <meta name="title" content="Nguyễn Văn Tú - From Coder to Developer Resume">
-    <meta name="description" content="I'm also a travel blogger at mucaocao.com. ">
+    <meta name="description" content="A coder on the way to a Developer">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://vantu98.github.io/vantu98">
     <meta property="og:title" content="Nguyễn Văn Tú - From Coder to Developer Resume">
-    <meta property="og:description" content="I'm also a travel blogger at mucaocao.com. ">
-    <meta property="og:image" content="https://lysontravel.vn/datafiles/5008/upload/images/1507354050_coppy_14776274953153_du-lich-binhba-5-500x500.jpg>
+    <meta property="og:description" content="A coder on the way to a Developer">
+    <meta property="og:image" content="public/images/avatar.jpeg">
 
     <!-- Twitter -->
     <meta property=" twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://vantu98.github.io/vantu98">
     <meta property="twitter:title" content="Nguyễn Văn Tú - From Coder to Developer Resume">
-    <meta property="twitter:description" content="I'm also a travel blogger at mucaocao.com. ">
+    <meta property="twitter:description" content="A coder on the way to a Developer">
     <meta property="twitter:image"
         content="https://lysontravel.vn/datafiles/5008/upload/images/1507354050_coppy_14776274953153_du-lich-binhba-5-500x500.jpg">
     <!-- Favicon -->
@@ -43,132 +43,88 @@
 
 </head>
 
-<body class="w-full h-screen bg-primary relative">
-    <!-- INTRO -->
-    <section id="intro" class="w-full h-screen relative bg-white tu-bg-img"
-        style="background-image: url('public/images/desktop.jpg')">
-        <!-- intro -->
-        <div id="intro__info"
-            class="p-2 w-10/12 lg:w-1/2 xl:w-1/3  tu-center-div absolute text-center text-3xl z-10 font-thin lg:text-4xl xl:text-5xl">
-            <h1 class="uppercase text-white font-regular">{{name}}</h1>
-            <hr class="border-white">
-            <p id="intro-myself" class="text-white text-2xl lg:text-3xl xl:text-3xl uppercase sub-font">{{desc}}</p>
-
-            <!-- social icon -->
-            <!-- <div class="flex p-2 items-center justify-between">
-                <div class="h-8 w-8">
-                    <ion-icon name="logo-facebook"
-                        class="w-8 h-8 p-2 text-blue-800 border rounded-full hover:bg-white transition duration-300 ease-in-out">
-                    </ion-icon>
-                </div>
-
-                <div class="h-8 w-8">
-                    <ion-icon name="logo-github"
-                        class="w-8 h-8 p-2 text-white border rounded-full hover:bg-gray-900 hover:border-gray-900 transition duration-300 ease-in-out">
-                    </ion-icon>
-                </div>
-            </div> -->
+<body class="w-screen h-screen bg-primary relative">
+    <!-- SIDEBAR -->
+    <!-- For Desktop -->
+    <div class="w-48 p-2 bg-secondary h-full fixed top-0 left-0 hidden lg:block xl:block">
+        <!-- close btn -->
+        <!-- display in sm, md screen -->
+        <div class="flex justify-end lg:hidden xl:hidden">
+            <ion-icon name="close" class="text-red-500 text-2xl p-1 transition duration-200 ease-in-out rounded-lg my-2 hover:bg-white"></ion-icon>
         </div>
-        <!-- Overlay -->
-        <div id="intro__overlay" class="absolute top-0 left-0 w-full h-screen bg-green-500 opacity-50"></div>
+
+        <!-- avatar -->
+        <div class="py-4 px-2 rounded-lg w-full">
+            <img src="public/images/avatar.jpeg" alt="Nguyen Van Tu's avatar" class="rounded-lg">
+            <!-- <hr class="my-2"> -->
+        </div>
+
+        <!-- navigation list -->
+        <ul id="nav-list">
+            <li class="p-2 py-1">
+                <a href="#home" class="flex justify-between items-center text-default hover:bg-active p-2 rounded-lg">
+                    <ion-icon name="home" class=""></ion-icon>
+                    <span class="text-sm">Home</span>
+                </a>
+            </li>
+            <li class="p-2 py-1">
+                <a href="#about-me" class="flex justify-between items-center text-default hover:bg-active p-2 rounded-lg">
+                    <ion-icon name="person" class=""></ion-icon>
+                    <span class="text-sm">About Me</span>
+                </a>
+            </li>
+            <li class="p-2 py-1">
+                <a href="#skills" class="flex justify-between items-center text-default hover:bg-active p-2 rounded-lg">
+                    <ion-icon name="cellular" class=""></ion-icon>
+                    <span class="text-sm">Skills</span>
+                </a>
+            </li>
+            <li class="p-2 py-1">
+                <a href="#exp" class="flex justify-between items-center text-default hover:bg-active p-2 rounded-lg">
+                    <ion-icon name="shapes" class=""></ion-icon>
+                    <span class="text-sm">Experiences</span>
+                </a>
+            </li>
+            <li class="p-2 py-1">
+                <a href="#edu" class="flex justify-between items-center text-default hover:bg-active p-2 rounded-lg">
+                    <ion-icon name="school" class=""></ion-icon>
+                    <span class="text-sm">Education</span>
+                </a>
+            </li>
+        </ul>
+
+        <div class="absolute xl:bottom-0 left-0 w-full mb-4">
+            <ul id="" class="">
+                <li class="bg-active px-4 py-2">
+                    <a href="mailto:nguyenvantu191298@gmail.com" class="flex items-center justify-between">
+                        <span class="text-white text-sm">Mail to me</span>
+                        <ion-icon name="mail" class="text-red-600"></ion-icon>
+                    </a>
+                </li>
+                <li class="bg-active px-4 py-2">
+                    <a href="tel:0971794425" class="flex items-center justify-between">
+                        <span class="text-white text-sm">Call me</span>
+                        <ion-icon name="call" class="text-green-500"></ion-icon>
+                    </a>
+                </li>
+                <!-- <li class="bg-white px-4 py-2">
+                    <a href="mailto:nguyenvantu191298@gmail.com" class="flex items-center justify-between">
+                        <span>Mail to me</span>
+                        <ion-icon name="mail"></ion-icon>
+                    </a>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+    <!-- END SIDEBAR -->
+
+    <!-- MAIN CONTENT -->
+    <section id="" class="w-full flex">
+        
     </section>
-
-    <!-- Personal Infomation -->
-    <section id="about-me" class="w-full bg-gray-200 relative pb-10">
-        <!-- Head -->
-        <div class="w-full py-6 mb-4 mx-auto text-center bg-gray-300 sticky top-0">
-            <h2 class="uppercase text-2xl">About me</h2>
-        </div>
-
-        <!-- Body -->
-        <div class="w-full">
-            <div class="w-full lg:w-4/5 xl:w-4/5 mx-auto px-6">
-                <div class="grid grid-cols-1 lg:grid-cols-7 xl:grid-cols-5 gap-4">
-                    <!-- avatar -->
-                    <div class="w-full rounded-lg">
-                        <img src="public/images/avatar.jpeg" alt="Nguyen Van Tu's avatar" class="rounded-lg">
-                    </div>
-
-                    <!-- summary -->
-                    <div class="w-full py-4 px-6 rounded-lg lg:col-span-3 xl:col-span-3 border bg-white">
-                        <!-- title -->
-                        <h3 class="text-gray-800 font-regular text-xl uppercase mb-4">Summary</h3>
-
-                        <!-- content -->
-                        <div class="w-full text-md text-gray-800">
-                            <p class="mb-2">I'm Pham Huy Hoang, a full stack developer with 3 years of experience in
-                                .NET technologies and 1 year of experience in MEAN stack, with good knowledge of
-                                Database Design, Design Pattern, Object-Oriented Analysis and Design.</p>
-                            <p class="mb-2">Learning new languages and technologies is what I am passionate about (I
-                                self-taught Django with 3 weeks). I am considered a team-player because I like to help
-                                other and tend to work well within groups. I can also do some mentoring tasks and do
-                                code reviewing for other team members.</p>
-                            <p class="mb-2">I am also the owner of an IT blog called: toidicodedao.com. My stackoverflow
-                                profile is among the top 11% with more than 3k reps. My favorite books are: Clean Code,
-                                Head First Design Pattern, C# in Depth, Working with Legacy Code.</p>
-                        </div>
-
-                        <!-- download CV btn -->
-                        <button id="btn-download-my-cv"
-                            class="p-2 flex justify-between align-middle rounded-lg bg-green-400 text-white mt-4">
-                            <!-- icon -->
-                            <ion-icon name="download" class="text-xl mr-2"></ion-icon>
-                            <span class="uppercase">My CV</span>
-                        </button>
-                    </div>
-
-                    <!-- personal infomation -->
-                    <div class="w-full">
-                        <!-- wrapper -->
-                        <div class="bg-white p-4 rounded-lg overflow-hidden">
-                            <!-- title -->
-                            <h3 class="text-gray-800 font-regular text-xl uppercase mb-4">Contact Info</h3>
-
-                            <!-- list info -->
-                `            <div class="flex flex-row block justify-start items-center py-2">
-                                <ion-icon name="navigate" class="text-xl mr-2 text-green-500"></ion-icon>
-                                <p class="text-md">99 Nguyen Hau, Tan Phu</p>
-                            </div>
-                            <div class="flex flex-row block justify-start items-center py-2">
-                                <ion-icon name="call" class="text-xl mr-2 text-green-500"></ion-icon>
-                                <a href="tel:0971794425" class="text-md">(+84) 971 794 425</a>
-                            </div>
-                            <div class="flex flex-row block justify-start items-center py-2">
-                                <ion-icon name="mail" class="text-xl mr-2 text-green-500"></ion-icon>
-                                <a href="mailto:vantuu9@gmail.com"
-                                    class="text-md text-blue-500 hover:text-teal-500">vantuu9@gmail.com</a>
-                            </div>
-                            <div class="flex flex-row block justify-start items-center py-2">
-                                <ion-icon name="globe" class="text-xl mr-2 text-green-500"></ion-icon>
-                                <a href="http://www.mucaocao.com"
-                                    class="text-md text-blue-500 hover:text-teal-500">mucaocao.com</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills -->
-    <section id="skills" class="w-full bg-gray-200 relative pb-10">
-        <!-- Head -->
-        <div class="w-full py-6 mb-4 mx-auto text-center bg-gray-300 sticky top-0">
-            <h2 class="uppercase text-2xl">Skills</h2>
-        </div>
-    </section>
-
+    <!-- END MAIN CONTENT -->
     <!-- SCRIPT -->
-    <script>
-        var app = new Vue({
-            el: '#intro__info',
-            data: {
-                name: "Nguyen Van Tu",
-                desc: "A full stack developer"
-            }
-        })
-    </script>
-
+    <script src="public/js/SeedData.js"></script>
     <!-- Less Cdn -->
     <script src="//cdn.jsdelivr.net/npm/less"></script>
 
