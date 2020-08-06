@@ -18,8 +18,23 @@ html,
 .bg-primary {
   background-color: @bg-primary;
 }
-.bg-scondary {
+.bg-secondary {
   background-color: @bg-secondary;
+}
+.bg-active{
+  background-color: @bg-active;
+}
+.text-white{
+  color: white;
+}
+#nav-list a:hover{
+  .bg-active();
+  .text-white();
+  cursor: pointer;
+}
+
+.text-default{
+  color: @inactive-icon;
 }
 
 .tu-bg-img {
