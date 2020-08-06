@@ -5,29 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- FOR SEO -->
-    <meta name="title" content="Nguyễn Văn Tú - From coder to developer | Nguyễn Văn Tú CV">
+    <meta name="title" content="Nguyễn Văn Tú - From coder to developer Resume | Nguyễn Văn Tú CV">
     <meta name="author" content="Nguyễn Văn Tú | PS11094 | tunv | Mũ Cào Cào">
-    <meta name="keywords" content="cv | tunv | Nguyễn Văn Tú | Nguyễn Văn Tú CV | Nguyen Van tu's CV">
+    <meta name="keywords" content="cv | tunv | Nguyễn Văn Tú | Nguyễn Văn Tú CV | Nguyen Van Tu's CV">
 
     <!-- END FOR SEO -->
     <!-- <title>Nguyễn Văn Tú - Full Stack Developer Resume</title> -->
     <!-- Primary Meta Tags -->
     <title>Nguyễn Văn Tú - From Coder to Developer Resume</title>
     <meta name="title" content="Nguyễn Văn Tú - From Coder to Developer Resume">
-    <meta name="description" content="I'm also a travel blogger at mucaocao.com. ">
+    <meta name="description" content="A coder on the way to a Developer">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://vantu98.github.io/vantu98">
     <meta property="og:title" content="Nguyễn Văn Tú - From Coder to Developer Resume">
-    <meta property="og:description" content="I'm also a travel blogger at mucaocao.com. ">
+    <meta property="og:description" content="A coder on the way to a Developer">
     <meta property="og:image" content="public/images/avatar.jpeg">
 
     <!-- Twitter -->
     <meta property=" twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://vantu98.github.io/vantu98">
     <meta property="twitter:title" content="Nguyễn Văn Tú - From Coder to Developer Resume">
-    <meta property="twitter:description" content="I'm also a travel blogger at mucaocao.com. ">
+    <meta property="twitter:description" content="A coder on the way to a Developer">
     <meta property="twitter:image"
         content="https://lysontravel.vn/datafiles/5008/upload/images/1507354050_coppy_14776274953153_du-lich-binhba-5-500x500.jpg">
     <!-- Favicon -->
@@ -43,10 +43,16 @@
 
 </head>
 
-<body class="w-full h-screen bg-primary relative">
+<body class="w-screen h-screen bg-primary relative">
     <!-- SIDEBAR -->
     <!-- For Desktop -->
-    <div class="w-48 p-2 bg-secondary h-full absolute top-0 left-0">
+    <div class="w-48 p-2 bg-secondary h-full fixed top-0 left-0 hidden lg:block xl:block">
+        <!-- close btn -->
+        <!-- display in sm, md screen -->
+        <div class="flex justify-end lg:hidden xl:hidden">
+            <ion-icon name="close" class="text-red-500 text-2xl p-1 transition duration-200 ease-in-out rounded-lg my-2 hover:bg-white"></ion-icon>
+        </div>
+
         <!-- avatar -->
         <div class="py-4 px-2 rounded-lg w-full">
             <img src="public/images/avatar.jpeg" alt="Nguyen Van Tu's avatar" class="rounded-lg">
@@ -57,25 +63,25 @@
         <ul id="nav-list">
             <li class="p-2 py-1">
                 <a href="#home" class="flex justify-between items-center text-default hover:bg-active p-2 rounded-lg">
-                    <ion-icon name="home" class="" style="color: #24a19c;"></ion-icon>
+                    <ion-icon name="home" class=""></ion-icon>
                     <span class="text-sm">Home</span>
                 </a>
             </li>
             <li class="p-2 py-1">
                 <a href="#about-me" class="flex justify-between items-center text-default hover:bg-active p-2 rounded-lg">
-                    <ion-icon name="person" class="" style="color: #6ebfb5"></ion-icon>
+                    <ion-icon name="person" class=""></ion-icon>
                     <span class="text-sm">About Me</span>
                 </a>
             </li>
             <li class="p-2 py-1">
                 <a href="#skills" class="flex justify-between items-center text-default hover:bg-active p-2 rounded-lg">
-                    <ion-icon name="cellular" class="" style="color: #ffc7c7;"></ion-icon>
+                    <ion-icon name="cellular" class=""></ion-icon>
                     <span class="text-sm">Skills</span>
                 </a>
             </li>
             <li class="p-2 py-1">
                 <a href="#exp" class="flex justify-between items-center text-default hover:bg-active p-2 rounded-lg">
-                    <ion-icon name="shapes" class="" style="color: #ff5f40;"></ion-icon>
+                    <ion-icon name="shapes" class=""></ion-icon>
                     <span class="text-sm">Experiences</span>
                 </a>
             </li>
@@ -86,8 +92,37 @@
                 </a>
             </li>
         </ul>
+
+        <div class="absolute xl:bottom-0 left-0 w-full mb-4">
+            <ul id="" class="">
+                <li class="bg-active px-4 py-2">
+                    <a href="mailto:nguyenvantu191298@gmail.com" class="flex items-center justify-between">
+                        <span class="text-white text-sm">Mail to me</span>
+                        <ion-icon name="mail" class="text-red-600"></ion-icon>
+                    </a>
+                </li>
+                <li class="bg-active px-4 py-2">
+                    <a href="tel:0971794425" class="flex items-center justify-between">
+                        <span class="text-white text-sm">Call me</span>
+                        <ion-icon name="call" class="text-green-500"></ion-icon>
+                    </a>
+                </li>
+                <!-- <li class="bg-white px-4 py-2">
+                    <a href="mailto:nguyenvantu191298@gmail.com" class="flex items-center justify-between">
+                        <span>Mail to me</span>
+                        <ion-icon name="mail"></ion-icon>
+                    </a>
+                </li> -->
+            </ul>
+        </div>
     </div>
     <!-- END SIDEBAR -->
+
+    <!-- MAIN CONTENT -->
+    <section id="" class="w-full flex">
+        
+    </section>
+    <!-- END MAIN CONTENT -->
     <!-- SCRIPT -->
     <script src="public/js/SeedData.js"></script>
     <!-- Less Cdn -->
