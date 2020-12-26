@@ -2,7 +2,7 @@
 
 <!--
 **vantu98/vantu98** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
-
+**Check my Pet Projects here -->** [My Pet Projects](https://github.com/tunv-personal-project)
 - 🔭 I’m currently working on **TRANMEDIA** - a digital marketing online company
 - 🌱 I’m currently learning **BACKEND** with php as main language
 <!-- 👯 I’m looking to collaborate on ...
