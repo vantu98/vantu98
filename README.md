@@ -25,3 +25,5 @@
 <img align="left" alt="react" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB" />
 
 <img align="left" alt="nodejs" src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white" />
+
+<a href="https://app.daily.dev/tunv"><img src="https://api.daily.dev/devcards/92189c3330154d79a987f6bdd46f5af4.png?r=y6i" width="400" alt="Nguyễn Văn Tú's Dev Card"/></a>
